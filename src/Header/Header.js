@@ -13,7 +13,7 @@ const Header = () => {
             <div className="header-buttons">
             <h2 className="button">Homepage🏡</h2>
             <h2 className="button">My Notes📓</h2>
-            <h2 className="button">How to use🙋</h2>
+            <h2 className="button">New list ➕</h2>
             <h2 className="button">Account🔒</h2>
             <h2 className="button">Options⚙️</h2>
             </div>

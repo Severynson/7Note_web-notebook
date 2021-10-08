@@ -4,18 +4,18 @@ import './MyNotes.css'
 
 const NotesList = function () {
 
-    const lists = {
-        "University subjects": "1)Biology; 2)Phisiology; 3)English",
-        "Plans for the weekends": " Go to Ontario lake and make steak there with a company of old friends!",
-        "Books to read": "1)Respublica- Plato; 2)Short histoory of time- Steven Hawking"
-    }
+    const lists = [
+        ["University subjects", "1)Biology; 2)Phisiology; 3)English"],
+        ["Plans for the weekends", " Go to Ontario lake and make steak there with a company of old friends!"],
+        ["Books to read", "1)Respublica- Plato; 2)Short histoory of time- Steven Hawking"]
+    ]
 
   return (
       <Card>
     <div className="container">
-      <Note name="University subjects" text="1)Biology; 2)Phisiology; 3)English"></Note>
-      <Note name="Plans for the weekends" text=" Go to Ontario lake and make steak there with a company of old friends!"></Note>
-      <Note name="Books to read" text="1)Respublica- Plato; 2)Short histoory of time- Steven Hawking"></Note>
+      <Note name={lists[0][0]} text={lists[0][1]}></Note>
+      <Note name={lists[1][0]} text={lists[1][1]}></Note>
+      <Note name={lists[2][0]} text={lists[2][1]}></Note>
 
       </div>
       </Card>
