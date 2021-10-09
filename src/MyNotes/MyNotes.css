@@ -1,3 +1,11 @@
+.container-for-container {
+   display: grid;
+   justify-content: center;
+}
+
 .container {
-   
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   max-width: 960px;
+
 }

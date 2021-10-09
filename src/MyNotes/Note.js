@@ -3,11 +3,12 @@ import './Note.css'
 
 const Note = function (props) {
     return (
-        <div>
-        <Card className="note-container">
+        <div className="note-handling-div">
+        {/* <Card className="note-container"> */}
+        {/* <img src="/img/notebook.png" /> */}
         <div className="note-name">{props.name}</div>
         <div className="note-text">{props.text}</div>
-        </Card>
+        {/* </Card> */}
         </div>
     )
 }

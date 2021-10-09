@@ -11,14 +11,15 @@ const NotesList = function () {
     ]
 
   return (
-      <Card>
+      <div className="container-for-container">
+      {/* <Card> */}
     <div className="container">
       <Note name={lists[0][0]} text={lists[0][1]}></Note>
       <Note name={lists[1][0]} text={lists[1][1]}></Note>
       <Note name={lists[2][0]} text={lists[2][1]}></Note>
-
       </div>
-      </Card>
+      {/* </Card> */}
+      </div>
   );
 };
 
